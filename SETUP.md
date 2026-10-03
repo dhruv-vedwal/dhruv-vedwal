@@ -1,18 +1,22 @@
-# GitHub profile setup
+# Setup
 
 Create a **public** repository named exactly `dhruv-vedwal`.
 
-Using GitHub's website, create/upload:
-- `README.md`
-- `assets/hero.gif`
-- `assets/hero.png`
-- `.github/workflows/profile-cards.yml`
-- `.github/workflows/trophies.yml`
+Using only GitHub's website:
 
-Then go to **Settings → Actions → General → Workflow permissions** and choose **Read and write permissions**.
+1. Upload/create `README.md`.
+2. Upload/create `assets/hero.gif`.
+3. Upload/create `assets/hero.png` (optional fallback).
+4. Create `.github/workflows/profile-visuals.yml` and paste the included workflow.
 
-Open **Actions** and manually run:
-- `Update profile cards`
-- `Update GitHub trophies`
+Then go to:
 
-The README points the hero at the repository's `raw.githubusercontent.com` URL, so the animated GIF is resolved from the repo rather than as a fragile relative path.
+**Settings → Actions → General → Workflow permissions → Read and write permissions**
+
+Save it, open **Actions**, choose **Update profile visuals**, and click **Run workflow**.
+
+### Why this version
+
+The previous workflow had a separate `language-composition` job that was the failing step. This version removes that job entirely and uses the supported `github-readme-stats-action` for the language card, while the activity card and trophies are generated into the repository itself.
+
+The README therefore references only repository-owned SVGs for the activity, stats, languages and trophies.

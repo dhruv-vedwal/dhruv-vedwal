@@ -35,7 +35,7 @@ Software around **AI, automation and the web** — especially ideas where the co
 
 ### learning
 
-I'm learning **AI more seriously** now: going beyond simply using models and understanding how intelligent software is built, how information moves through it, and how the pieces fit together.
+I'm learning **AI more seriously** now — going beyond simply using models and understanding how intelligent software is built, how information is represented, retrieved, combined and turned into useful behaviour.
 
 </td>
 </tr>
@@ -76,9 +76,18 @@ I'm learning **AI more seriously** now: going beyond simply using models and und
 <br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/language-composition-wide-dark.svg">
-  <img src="./profile/language-composition-wide-light.svg"
-       alt="Language composition"
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg">
+  <img src="./profile/stats-light.svg"
+       alt="GitHub statistics"
+       width="100%" />
+</picture>
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg">
+  <img src="./profile/top-langs-light.svg"
+       alt="Top languages"
        width="100%" />
 </picture>
 
