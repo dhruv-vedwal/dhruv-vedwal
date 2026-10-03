@@ -18,83 +18,71 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
-      - name: Generate activity card
-        uses: shinpr/github-profile-stats@49b5f7091182a45f3ef93923505b660c6da5f835 # v0.2.0
+      - name: Generate signal field
+        uses: shinpr/github-profile-stats@49b5f7091182a45f3ef93923505b660c6da5f835
+        id: signal
+        with:
+          username: ${{ github.repository_owner }}
+          token: ${{ github.token }}
+          profile: signal-field
+
+      - name: Generate activity consistency
+        uses: shinpr/github-profile-stats@49b5f7091182a45f3ef93923505b660c6da5f835
         id: activity
         with:
           username: ${{ github.repository_owner }}
           token: ${{ github.token }}
           profile: activity-consistency
 
-      - name: Copy activity cards
+      - name: Generate language composition
+        uses: shinpr/github-profile-stats@49b5f7091182a45f3ef93923505b660c6da5f835
+        id: languages
+        with:
+          username: ${{ github.repository_owner }}
+          token: ${{ github.token }}
+          profile: language-composition
+
+      - name: Publish profile cards
         env:
-          READY_DIR: ${{ steps.activity.outputs.ready-dir }}
+          SIGNAL_DIR: ${{ steps.signal.outputs.ready-dir }}
+          ACTIVITY_DIR: ${{ steps.activity.outputs.ready-dir }}
+          LANGUAGES_DIR: ${{ steps.languages.outputs.ready-dir }}
         run: |
           mkdir -p profile
-          cp "$READY_DIR"/activity-consistency-*.svg profile/
+
+          cp "$SIGNAL_DIR"/signal-field-*.svg profile/
+          cp "$ACTIVITY_DIR"/activity-consistency-*.svg profile/
+          cp "$LANGUAGES_DIR"/language-composition-*.svg profile/
+
+          test -s profile/signal-field-wide-light.svg
+          test -s profile/signal-field-wide-dark.svg
           test -s profile/activity-consistency-wide-light.svg
           test -s profile/activity-consistency-wide-dark.svg
-          test -s profile/activity-consistency-compact-light.svg
-          test -s profile/activity-consistency-compact-dark.svg
+          test -s profile/language-composition-wide-light.svg
+          test -s profile/language-composition-wide-dark.svg
 
-      - name: Generate stats card
-        uses: soulteary/github-readme-stats-action@v1.0.0
-        with:
-          card: stats
-          options: 'username=${{ github.repository_owner }}&show_icons=true&hide_title=true&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&theme=default&bg_color=ffffff'
-          path: profile/stats-light.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate dark stats card
-        uses: soulteary/github-readme-stats-action@v1.0.0
-        with:
-          card: stats
-          options: 'username=${{ github.repository_owner }}&show_icons=true&hide_title=true&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&theme=dark'
-          path: profile/stats-dark.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate top languages card
-        uses: soulteary/github-readme-stats-action@v1.0.0
-        with:
-          card: top-langs
-          options: 'username=${{ github.repository_owner }}&layout=compact&langs_count=6&hide_title=true&hide_border=true&theme=default&bg_color=ffffff'
-          path: profile/top-langs-light.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate dark top languages card
-        uses: soulteary/github-readme-stats-action@v1.0.0
-        with:
-          card: top-langs
-          options: 'username=${{ github.repository_owner }}&layout=compact&langs_count=6&hide_title=true&hide_border=true&theme=dark'
-          path: profile/top-langs-dark.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate trophies
-        uses: ryo-ma/github-profile-trophy@v1.0
+      - name: Generate GitHub trophies
+        uses: ryo-ma/github-profile-trophy@master
         with:
           username: ${{ github.repository_owner }}
           output_path: assets/trophy.svg
           token: ${{ github.token }}
-          theme: flat
 
-      - name: Validate generated files
-        run: |
-          test -s assets/trophy.svg
-          test -s profile/stats-light.svg
-          test -s profile/stats-dark.svg
-          test -s profile/top-langs-light.svg
-          test -s profile/top-langs-dark.svg
+      - name: Validate trophy
+        run: test -s assets/trophy.svg
 
-      - name: Commit generated files
+      - name: Commit generated visuals
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile assets/trophy.svg
+
           if git diff --cached --quiet; then
-            echo "No changes to publish."
+            echo "No visual changes."
             exit 0
           fi
+
           git commit -m "Update profile visuals"
           git push

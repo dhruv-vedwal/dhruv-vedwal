@@ -4,7 +4,7 @@
      alt="Animated evening workspace"
      width="100%" />
 
-<br/>
+<br />
 
 # Dhruv Vedwal
 
@@ -12,7 +12,7 @@
 
 I like taking a rough idea, turning it into something real, and then figuring out all the parts I didn't know yet.
 
-<br/>
+<br />
 
 <a href="https://github.com/dhruv-vedwal">GitHub</a>
 &nbsp;&nbsp;·&nbsp;&nbsp;
@@ -20,7 +20,7 @@ I like taking a rough idea, turning it into something real, and then figuring ou
 
 </div>
 
-<br/>
+<br />
 
 <table>
 <tr>
@@ -41,7 +41,7 @@ I'm learning **AI more seriously** now — going beyond simply using models and 
 </tr>
 </table>
 
-<br/>
+<br />
 
 <div align="center">
 
@@ -67,48 +67,55 @@ I'm learning **AI more seriously** now — going beyond simply using models and 
 <div align="center">
 
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/signal-field-wide-dark.svg">
+  <img src="./profile/signal-field-wide-light.svg"
+       alt="GitHub activity and public metrics"
+       width="100%" />
+</picture>
+
+<br />
+
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile/activity-consistency-wide-dark.svg">
   <img src="./profile/activity-consistency-wide-light.svg"
-       alt="GitHub activity"
+       alt="GitHub contribution activity"
        width="100%" />
 </picture>
 
-<br/>
+<br />
+
+<table align="center">
+<tr>
+<td width="50%" valign="top">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg">
-  <img src="./profile/stats-light.svg"
-       alt="GitHub statistics"
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/language-composition-wide-dark.svg">
+  <img src="./profile/language-composition-wide-light.svg"
+       alt="Language composition"
        width="100%" />
 </picture>
 
-<br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg">
-  <img src="./profile/top-langs-light.svg"
-       alt="Top languages"
-       width="100%" />
-</picture>
-
-</div>
+</td>
+<td width="50%" valign="top">
 
 <details>
 <summary><b>GitHub trophies</b></summary>
 
-<br/>
-
-<div align="center">
+<br />
 
 <img src="./assets/trophy.svg"
      alt="GitHub trophies"
      width="100%" />
 
-</div>
-
 </details>
 
-<br/>
+</td>
+</tr>
+</table>
+
+</div>
+
+<br />
 
 <div align="center">
 
