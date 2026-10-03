@@ -1,8 +1,12 @@
-# Profile README setup
+# Install from GitHub's website
 
-1. Create a public repository named exactly `dhruv-vedwal`.
-2. Copy `README.md` and the `assets/` folder into that repository.
-3. Commit and push.
-4. Open your GitHub profile and the README will appear at the top.
+Create a **public** repository named exactly `dhruv-vedwal`.
 
-The README intentionally uses a locally stored animated SVG for the hero, so the main visual is under your control rather than depending on a hosted banner service.
+Then use GitHub's web editor:
+
+1. **Add file → Create new file → `README.md`** and paste `README.md` from this package.
+2. **Add file → Create new file → `assets/hero.svg`** and paste `assets/hero.svg`. GitHub creates the `assets` folder for you.
+3. Commit both files.
+4. Open `https://github.com/dhruv-vedwal`.
+
+The custom hero is stored in the repo. GitHub stats, languages, activity graph, trophies, and Skill Icons are remote images.
