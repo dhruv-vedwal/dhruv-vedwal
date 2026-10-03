@@ -1,83 +1,105 @@
 <div align="center">
 
-<img src="./assets/hero.gif" alt="Animated evening workspace" width="100%" />
+<img src="https://raw.githubusercontent.com/dhruv-vedwal/dhruv-vedwal/main/assets/hero.gif"
+     alt="Animated evening workspace"
+     width="100%" />
 
-<br />
+<br/>
 
 # Dhruv Vedwal
 
-### Building things I want to exist.
+### I build things, learn a lot, and keep making them better.
 
-I like turning rough ideas into working software, then staying with them long enough to make them good.
+I like taking a rough idea, turning it into something real, and then figuring out all the parts I didn't know yet.
 
-<br />
+<br/>
 
-<a href="https://github.com/dhruv-vedwal">github</a>
+<a href="https://github.com/dhruv-vedwal">GitHub</a>
 &nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/dhruv-vedwal/">linkedin</a>
+<a href="https://www.linkedin.com/in/dhruv-vedwal/">LinkedIn</a>
 
 </div>
 
-<br />
+<br/>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### right now
+### building
 
-I'm exploring the space between **AI, software and automation** — especially the parts that make computers understand what people mean and actually get things done.
+Software around **AI, automation and the web** — especially ideas where the computer has to understand what someone is trying to do and help make it happen.
 
 </td>
 <td width="50%" valign="top">
 
-### lately
+### learning
 
-AI agents · browser automation · developer tools · web apps · systems that scale
+I'm learning **AI more seriously** now: going beyond simply using models and understanding how intelligent software is built, how information moves through it, and how the pieces fit together.
 
 </td>
 </tr>
 </table>
 
+<br/>
+
+<div align="center">
+
+`web apps` &nbsp; `automation` &nbsp; `AI` &nbsp; `developer tools` &nbsp; `systems`
+
+</div>
+
 ---
 
 <div align="center">
 
-### things I use
+## things I use
 
-<img src="https://skillicons.dev/icons?i=ts,js,python,react,nextjs,nodejs,fastapi,mongodb,postgres,redis,aws,docker&perline=6" alt="Technologies" />
+<img src="https://skillicons.dev/icons?i=ts,js,python,react,nextjs,nodejs,fastapi,mongodb,postgres,redis,aws,docker&perline=6"
+     alt="Technologies I use" />
 
 </div>
 
-<br />
+---
+
+## GitHub, lately
 
 <div align="center">
 
-### github
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/activity-consistency-wide-dark.svg">
+  <img src="./profile/activity-consistency-wide-light.svg"
+       alt="GitHub activity"
+       width="100%" />
+</picture>
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=dhruv-vedwal&show_icons=true&hide_title=true&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&theme=default&bg_color=ffffff" alt="GitHub statistics" />
+<br/>
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dhruv-vedwal&layout=compact&hide_title=true&hide_border=true&langs_count=6&theme=default&bg_color=ffffff" alt="Top languages" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/language-composition-wide-dark.svg">
+  <img src="./profile/language-composition-wide-light.svg"
+       alt="Language composition"
+       width="100%" />
+</picture>
 
 </div>
 
-<br />
+<details>
+<summary><b>GitHub trophies</b></summary>
+
+<br/>
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=dhruv-vedwal&bg_color=ffffff&color=59636e&line=c66b5d&point=8e7198&area=true&area_color=f3e8e5&hide_border=true" width="94%" alt="Contribution activity" />
+<img src="./assets/trophy.svg"
+     alt="GitHub trophies"
+     width="100%" />
 
 </div>
 
-<br />
+</details>
 
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=dhruv-vedwal&theme=flat&no-frame=true&no-bg=true&margin-w=8&row=1&column=6" alt="GitHub trophies" />
-
-</div>
-
-<br />
+<br/>
 
 <div align="center">
 
