@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/dhruv-vedwal/dhruv-vedwal/main/assets/hero.gif"
+<img src="./assets/hero.gif"
      alt="Animated evening workspace"
      width="100%" />
 
@@ -62,56 +62,23 @@ I'm learning **AI more seriously** now — going beyond simply using models and 
 
 ---
 
-## GitHub, lately
-
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/signal-field-wide-dark.svg">
-  <img src="./profile/signal-field-wide-light.svg"
-       alt="GitHub activity and public metrics"
-       width="100%" />
-</picture>
+## GitHub
+
+<img height="160"
+     src="https://github-readme-stats.vercel.app/api?username=dhruv-vedwal&show_icons=true&hide_title=true&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&theme=default&bg_color=ffffff"
+     alt="GitHub statistics" />
+
+<img height="160"
+     src="https://github-readme-stats.vercel.app/api/top-langs/?username=dhruv-vedwal&layout=compact&hide_title=true&hide_border=true&langs_count=6&theme=default&bg_color=ffffff"
+     alt="Top languages" />
 
 <br />
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/activity-consistency-wide-dark.svg">
-  <img src="./profile/activity-consistency-wide-light.svg"
-       alt="GitHub contribution activity"
-       width="100%" />
-</picture>
-
-<br />
-
-<table align="center">
-<tr>
-<td width="50%" valign="top">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/language-composition-wide-dark.svg">
-  <img src="./profile/language-composition-wide-light.svg"
-       alt="Language composition"
-       width="100%" />
-</picture>
-
-</td>
-<td width="50%" valign="top">
-
-<details>
-<summary><b>GitHub trophies</b></summary>
-
-<br />
-
-<img src="./assets/trophy.svg"
+<img src="https://github-profile-trophy.vercel.app/?username=dhruv-vedwal&theme=flat&no-frame=true&no-bg=true&margin-w=7&row=1&column=6"
      alt="GitHub trophies"
-     width="100%" />
-
-</details>
-
-</td>
-</tr>
-</table>
+     width="90%" />
 
 </div>
 

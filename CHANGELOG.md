@@ -1,3 +1,17 @@
-# Fix
+# Version 8
 
-Replaced the failing split workflow with one job that generates all three profile cards using `shinpr/github-profile-stats`, then generates trophies with `ryo-ma/github-profile-trophy` without the unsupported `theme` input.
+The GitHub section was deliberately simplified.
+
+Removed:
+- activity graph
+- signal-field card
+- generated profile-stat SVGs
+- GitHub Actions
+- large stacked metrics panels
+
+Kept:
+- one compact GitHub stats card
+- one compact top-languages card
+- one trophy row
+
+The result is much shorter and keeps the profile focused on the person rather than the widgets.
