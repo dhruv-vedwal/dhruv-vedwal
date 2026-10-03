@@ -1,79 +1,86 @@
 <div align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Dhruv Vedwal — I build software" />
-</div>
+
+<img src="./assets/hero.gif" alt="Animated evening workspace" width="100%" />
 
 <br />
 
-<div align="center">
-  <a href="https://github.com/dhruv-vedwal">GitHub</a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/dhruv-vedwal/">LinkedIn</a>
+# Dhruv Vedwal
+
+### Building things I want to exist.
+
+I like turning rough ideas into working software, then staying with them long enough to make them good.
+
+<br />
+
+<a href="https://github.com/dhruv-vedwal">github</a>
+&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/dhruv-vedwal/">linkedin</a>
+
 </div>
 
 <br />
 
 <table>
 <tr>
-<td width="62%" valign="top">
+<td width="50%" valign="top">
 
-### 01 — NOW
+### right now
 
-**ProductLens**
-
-A small idea I'm pushing pretty far: give a web app, a prompt, and credentials; let an agent figure out the workflow and turn it into a product demo.
-
-`TypeScript` `Next.js` `Python` `FastAPI` `Playwright` `LLMs`
+I'm exploring the space between **AI, software and automation** — especially the parts that make computers understand what people mean and actually get things done.
 
 </td>
-<td width="38%" valign="top">
+<td width="50%" valign="top">
 
-### 02 — INTERESTS
+### lately
 
-AI agents  
-Browser automation  
-LLM systems  
-Developer tools  
-Product engineering
+AI agents · browser automation · developer tools · web apps · systems that scale
 
 </td>
 </tr>
 </table>
 
-<br />
-
-### 03 — TOOLKIT
-
-<p>
-  <img src="https://skillicons.dev/icons?i=ts,js,python,react,nextjs,nodejs,fastapi,mongodb,postgres,redis,aws,docker&perline=6" alt="TypeScript, JavaScript, Python, React, Next.js, Node.js, FastAPI, MongoDB, PostgreSQL, Redis, AWS, Docker" />
-</p>
-
-<br />
-
-### 04 — GITHUB
-
-<table>
-<tr>
-<td width="50%" valign="top">
-  <img src="https://github-readme-stats.vercel.app/api?username=dhruv-vedwal&show_icons=true&hide_title=true&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&theme=transparent" width="100%" alt="GitHub stats" />
-</td>
-<td width="50%" valign="top">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dhruv-vedwal&layout=compact&hide_title=true&hide_border=true&langs_count=6&theme=transparent" width="100%" alt="Top languages" />
-</td>
-</tr>
-</table>
+---
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dhruv-vedwal&theme=github-compact&hide_border=true&area=true" width="96%" alt="Contribution activity graph" />
+
+### things I use
+
+<img src="https://skillicons.dev/icons?i=ts,js,python,react,nextjs,nodejs,fastapi,mongodb,postgres,redis,aws,docker&perline=6" alt="Technologies" />
+
 </div>
 
 <br />
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=dhruv-vedwal&theme=flat&no-frame=true&no-bg=true&margin-w=7&row=1&column=6" width="92%" alt="GitHub trophies" />
+
+### github
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=dhruv-vedwal&show_icons=true&hide_title=true&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&theme=default&bg_color=ffffff" alt="GitHub statistics" />
+
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dhruv-vedwal&layout=compact&hide_title=true&hide_border=true&langs_count=6&theme=default&bg_color=ffffff" alt="Top languages" />
+
 </div>
 
 <br />
 
 <div align="center">
-  <sub>build → break → learn → repeat</sub>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=dhruv-vedwal&bg_color=ffffff&color=59636e&line=c66b5d&point=8e7198&area=true&area_color=f3e8e5&hide_border=true" width="94%" alt="Contribution activity" />
+
+</div>
+
+<br />
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=dhruv-vedwal&theme=flat&no-frame=true&no-bg=true&margin-w=8&row=1&column=6" alt="GitHub trophies" />
+
+</div>
+
+<br />
+
+<div align="center">
+
+<sub>somewhere between building and figuring it out.</sub>
+
 </div>
