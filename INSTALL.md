@@ -1,12 +1,11 @@
-# Install from GitHub's website
+# GitHub profile setup
 
 Create a **public** repository named exactly `dhruv-vedwal`.
 
-Then use GitHub's web editor:
+Using only the GitHub website:
+1. Create `README.md` in the repository root and paste the included README.
+2. Create `assets/hero.gif` and upload the included GIF.
+3. Optionally add `assets/hero.png` as a static fallback.
+4. Open your profile at `https://github.com/dhruv-vedwal`.
 
-1. **Add file → Create new file → `README.md`** and paste `README.md` from this package.
-2. **Add file → Create new file → `assets/hero.svg`** and paste `assets/hero.svg`. GitHub creates the `assets` folder for you.
-3. Commit both files.
-4. Open `https://github.com/dhruv-vedwal`.
-
-The custom hero is stored in the repo. GitHub stats, languages, activity graph, trophies, and Skill Icons are remote images.
+The hero is an actual animated GIF with subtle screen/city/lamp motion. The stats, contribution graph and trophies are live external widgets.
